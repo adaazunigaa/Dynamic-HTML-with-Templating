@@ -9,7 +9,12 @@ app.set("views", path.join(__dirname, "views"));
 app.get("/", (req, res) => {
     //res.send("Hello! \n  <h1>This is the 'HOME' page</h1> ");
     res.render("home.ejs");
-})
+});
+
+app.get("/r/:subreddit", (req,res) => {
+    const {subreddit} = req.params;
+    res.render("subreddit.ejs", {subreddit})
+});
 
 app.get("/rand", (req,res) => {
     const num = Math.floor(Math.random()* 10) + 1;
