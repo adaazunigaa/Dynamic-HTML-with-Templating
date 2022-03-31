@@ -9,4 +9,6 @@
     -Setting the views directory
     -EJS Interpolation Syntax
     -Passing Data to templates
+    -Conditionals in EJS
+    -
     -

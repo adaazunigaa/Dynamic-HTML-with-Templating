@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,23 @@
 </head>
 
 <body>
-    <p>Your random number (1-10) is: <%= randomNum %>  </p>
+    <p>Your random number (1-10) is: <%= randomNum %>
+    </p>
+
+    <% if (randomNum % 2===0) { %>
+        <p>
+            <%= randomNum %> is an even number!
+        </p>
+        <% } else { %>
+            <p>
+                <%= randomNum %> is an odd number
+            </p>
+            <% } %>
+
+
+    <h3>
+        <%= randomNum % 2===0 ? "EVEN!!" : "ODD" %>
+    </h3>
 </body>
+
 </html>
