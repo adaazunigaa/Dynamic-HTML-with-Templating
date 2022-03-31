@@ -10,5 +10,7 @@
     -EJS Interpolation Syntax
     -Passing Data to templates
     -Conditionals in EJS
+    -Loops in EJS 
+     -(javascript enveded directly in the .ejs template)
     -
     -
