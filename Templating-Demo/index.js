@@ -17,13 +17,19 @@ app.get("/cats", (req, res) => {
     const cats = [
         "Blue", "Rocket", "Monty", "Stephanie", "winston"
     ];
-    res.render("cats.ejs", {cats});
+    res.render("cats.ejs", { cats });
 });
 
 app.get("/r/:subreddit", (req, res) => {
     const { subreddit } = req.params;
     const data = redditData[subreddit];
-    res.render("subreddit.ejs", { ...data })
+
+    if (data) {
+        res.render("subreddit.ejs", { ...data });
+    }else{
+        res.render("notFound.ejs", {subreddit})
+    }
+
 });
 
 app.get("/rand", (req, res) => {
