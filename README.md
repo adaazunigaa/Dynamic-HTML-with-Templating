@@ -12,5 +12,5 @@
     -Conditionals in EJS
     -Loops in EJS 
      -(javascript enveded directly in the .ejs template)
-    -
+    -Serving static Assets in Express
     -
