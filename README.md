@@ -7,6 +7,6 @@
     -Intro to templating
     -Configuring express for EJS
     -Setting the views directory
-    -
+    -EJS Interpolation Syntax
     -
     -
