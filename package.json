@@ -1,0 +1,23 @@
+{
+  "name": "dynamic-html-with-templating",
+  "version": "1.0.0",
+  "description": "Allows us to define a preset \"pattern\" for a webpage, that we can dynamically modify \r         EX:\r             we could define a single \"SEARCH\" template that displays all the results for a given search term. We do not know what the term is or how many results there are ahead of time. The weboage is created on the fly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adaazunigaa/Dynamic-HTML-with-Templating.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adaazunigaa/Dynamic-HTML-with-Templating/issues"
+  },
+  "homepage": "https://github.com/adaazunigaa/Dynamic-HTML-with-Templating#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
