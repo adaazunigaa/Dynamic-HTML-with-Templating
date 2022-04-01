@@ -13,4 +13,6 @@
     -Loops in EJS 
      -(javascript enveded directly in the .ejs template)
     -Serving static Assets in Express
-    -
+
+## Bootstrap and Express
+    -Integrating bootstrap to the project
