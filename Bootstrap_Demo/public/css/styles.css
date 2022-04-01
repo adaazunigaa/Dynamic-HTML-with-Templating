@@ -1,0 +1,51 @@
+body{
+    background-color: #f9f8f8;
+    font-family: 'Baloo 2', cursive;
+    font-size: 1.5rem;
+}
+h1{
+    color: #cdb4db;
+    font-size: 3rem;
+    font-weight: bolder;
+   
+    text-shadow: 2px 2px black
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+hr{
+    border: solid #cdb4db;
+}
+
+nav, nav:hover{
+    background-color:#cdb4db ;
+    
+   
+}
+footer{
+    background-color: #cdb4db !important;
+}
+
+img{
+    border: dotted #cdb4db .5rem;
+}
+
+button, button span{
+    border: solid black !important;
+}
+
+.brand{
+    font-weight: bold;
+}
+
+a:hover{
+    font-weight:600;
+    color: black;
+    text-shadow: 2px 2px 4px white;
+}
+
